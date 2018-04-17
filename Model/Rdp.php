@@ -8,7 +8,7 @@ namespace LaxCorp\RdpBundle\Model;
 class Rdp
 {
 
-    const HEADER_CONTENT_TYPE = 'Content-type: application/rdp';
+    const CONTENT_TYPE = 'application/rdp';
     const DEFAULT_FILE_NAME = 'Default';
     const FILE_EXT = '.rdp';
     const ROW_SEPARATOR = "\r\n";
@@ -34,7 +34,7 @@ class Rdp
     /**
      * @return string
      */
-    public function generate(): string
+    public function generateData(): string
     {
         $rows = [
             "username:s:{$this->getUserName()}",

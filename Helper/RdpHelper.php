@@ -1,6 +1,6 @@
 <?php
 
-namespace LaxCorp\RdpBundle\Hepler;
+namespace LaxCorp\RdpBundle\Helper;
 
 use LaxCorp\RdpBundle\Model\Rdp;
 
@@ -29,14 +29,6 @@ class RdpHelper
     public function getDefault()
     {
         return new Rdp($this->fullAddress);
-    }
-
-    /**
-     * @inheritdoc
-     */
-    public function getFile(Rdp $rdp, $name='Default')
-    {
-
     }
 
 }
