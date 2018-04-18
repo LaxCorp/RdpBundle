@@ -1,4 +1,4 @@
-INN + KPP validation for ORM Entity
+Generate Windows Remote Desktop file.rdp|files.rdp.zip 
 =======================================================
 
 Install 
