@@ -14,7 +14,7 @@ class Rdp
     const CONTENT_TYPE = 'application/rdp';
     const DEFAULT_FILE_NAME = 'Default';
     const RDP_EXT = '.rdp';
-    const ZIP_EXT = '.zip';
+    const ZIP_EXT = '.rdp.zip';
     const ROW_SEPARATOR = "\r\n";
 
     /**
