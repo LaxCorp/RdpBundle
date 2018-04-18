@@ -7,8 +7,10 @@ composer require laxcorp/rdp-bundle
 
 Config
 ------
+```
 rdp:
-    full_address: 'rdp.server'
+    full_address: 'rdp.host:port'
+```
 
 Add in app/AppKernel.php
 ------------------------
@@ -47,6 +49,6 @@ foreach ($logins as $login){
     $rdp->add($rdpHelper->getDefault()->setUserName($login));
 }
 
-return $rdp->responceZip('all_rdp');
+$responce = $rdp->responceZip('all_rdp');
 ```
                 
