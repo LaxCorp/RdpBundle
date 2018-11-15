@@ -4,6 +4,7 @@
   "type": "symfony-bundle",
   "homepage": "https://github.com/LaxCorp/RdpBundle",
   "license": "MIT",
+  "minimum-stability": "stable",
   "keywords": [
     "rdp file generator",
     "Windows Remote Desktop"
